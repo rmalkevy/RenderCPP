@@ -7,19 +7,20 @@
 
 #include <iostream>
 #include <vector>
+#include "Vec3.h"
 
 class Sphere
 {
-private:
-	std::vector<float> position;
-	std::vector<float> color;
-	float radius;
-	float sqRadius;
-
 public:
-	Sphere(std::vector<float> position, std::vector<float> color, float radius);
+	Sphere(Vec3d position, Vec3d color, double radius);
 	~Sphere();
-	bool intersection();
+	bool intersection(const Vec3d &rOrigin, const Vec3d &rDir);
 
+private:
+	Vec3d pos;
+	Vec3d color;
+	double radius;
+	double sqRadius;
+	double t;
 };
 #endif

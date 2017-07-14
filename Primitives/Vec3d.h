@@ -23,8 +23,8 @@ public:
 	double	length() const;
 	double	length2() const;
 	double	cos(Vec3d const &v) const;
-	Vec3d	rotationVector(Vec3d &v);
-	Vec3d	translateVector(Vec3d &v);
+//	Vec3d	rotationVector(Vec3d &v);
+//	Vec3d	translateVector(Vec3d &v);
 
 
 	Vec3d operator * (const double &f) const;

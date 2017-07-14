@@ -14,7 +14,9 @@ class Sphere
 public:
 	Sphere(Vec3d position, Vec3d color, double radius);
 	~Sphere();
-	bool intersection(const Vec3d &rOrigin, const Vec3d &rDir);
+	bool	intersection(const Vec3d &rOrigin, const Vec3d &rDir);
+	Vec3d	findNormal(const Vec3d & intersectionPoint);
+
 
 private:
 	Vec3d pos;

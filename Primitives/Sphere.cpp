@@ -52,3 +52,9 @@ bool Sphere::intersection( const Vec3d &rOrigin, const Vec3d &rDir )
 	}
 	return (false);
 }
+
+Vec3d Sphere::findNormal( const Vec3d &intersectionPoint )
+{
+	Vec3d normal = intersectionPoint - this->pos;
+	return ( normal.normalize() );
+}

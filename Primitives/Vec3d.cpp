@@ -43,7 +43,12 @@ Vec3d Vec3d::cross( Vec3d const &v ) const
 					x * v.y - y * v.x));
 }
 
-
+double Vec3d::cos( Vec3d const &v ) const
+{
+	Vec3d vec = Vec3d(x, y, z);
+	return (vec.dot(v) / (vec.dot(vec) * v.dot(v)));
+	// return (dot(v) / (dot(Vec3d(x, y, z)) * v.dot(v)));
+}
 
 /*
  * Implementation of overload operators

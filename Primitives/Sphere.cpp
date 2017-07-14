@@ -34,7 +34,7 @@ bool Sphere::intersection( const Vec3d &rOrigin, const Vec3d &rDir )
 
 	double a = rDir.dot(rDir);
 	double b = 2 * rDir.dot(len);
-	double c = len.dot(len);
+	double c = len.dot(len) - sqRadius;
 
 	double discr = b * b - 4 * a * c;
 	if (discr < 0)

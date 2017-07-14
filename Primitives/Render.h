@@ -6,7 +6,7 @@
 #define RENDERCPP_RENDER_H
 
 #include "iostream"
-#include "Vec3.h"
+#include "Vec3d.h"
 #include "Sphere.h"
 #include "Primitive.h"
 #include "mlx.h"

@@ -6,7 +6,7 @@
 #include "Window.h"
 
 
-void	renderPixel( double x, double y)
+Vec3d	renderPixel( Vec3d pixel)
 {
 
 }
@@ -20,7 +20,7 @@ void	loopScreen(Window &window) // Add list argument
 	{
 		for (double x = -halfWidth; x < halfWidth; x++)
 		{
-			renderPixel(x, y); // Add list argument
+			Vec3d color = renderPixel(Vec3d(x, y, 0)); // Add list argument
 		}
 	}
 }

@@ -9,6 +9,9 @@
 #include "Vec3d.h"
 #include "Sphere.h"
 #include "Primitive.h"
+#include "Camera.h"
+#include "Window.h"
+
 #include "../minilibx/mlx.h"
 
 

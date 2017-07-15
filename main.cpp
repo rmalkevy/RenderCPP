@@ -1,7 +1,5 @@
-#include <iostream>
+
 #include "./Primitives/Render.h"
-#include "Primitives/Window.h"
-#include "Primitives/Camera.h"
 
 int main()
 {

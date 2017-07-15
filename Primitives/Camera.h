@@ -10,11 +10,20 @@
 class Camera
 {
 public:
-	Vec3d	findCameraDirection(Vec3d const &pixel);
+	Camera(Vec3d const &origin);
+	~Camera();
+
+	void	findCameraDirection(Vec3d const &pixel);
+	void	setCamDir(Vec3d const &dir);
+	void	setCamOrig(Vec3d const &orig);
+	void	setCamAngle(Vec3d const &angle);
+	Vec3d	getCamDir() const;
+	Vec3d	getCamOrig() const;
+	Vec3d	getCamAngle() const;
 
 private:
-	Vec3d	camDir;
-	Vec3d	camOrig;
+	Vec3d	direction;
+	Vec3d	origin;
 	Vec3d	angle;
 };
 #endif //RENDERCPP_CAMERA_H

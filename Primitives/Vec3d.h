@@ -26,7 +26,6 @@ public:
 //	Vec3d	rotationVector(Vec3d &v);
 //	Vec3d	translateVector(Vec3d &v);
 
-
 	Vec3d operator * (const double &f) const;
 	Vec3d operator * (const Vec3d &v) const;
 	Vec3d operator + (const Vec3d &v) const;

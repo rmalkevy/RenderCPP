@@ -17,6 +17,8 @@ public:
 	void	clearWindow();
 	void	createImage();
 	void	putImageToWindow();
+	void	keyboardControl();
+	void	infinityShowingImage();
 
 	void	*getMlx() const;
 	void	*getWin() const;
@@ -33,12 +35,12 @@ public:
 	void	setHeight(int height);
 
 private:
-	void	*mlx;
-	void	*win;
-	void	*image;
 	char	*line;
 	int		width;
 	int		height;
+	void	*mlx;
+	void	*win;
+	void	*image;
 };
 
 #endif //RENDERCPP_WINDOW_H

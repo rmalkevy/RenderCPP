@@ -48,6 +48,19 @@ void Window::putImageToWindow()
 	return ;
 }
 
+void Window::keyboardControl()
+{
+	//TODO зробити клас, який буде включати в себе Window, Camera, List
+	//mlx_hook(mod->w->win, 2, 5, my_key_funct, mod);
+	return ;
+}
+
+void Window::infinityShowingImage()
+{
+	mlx_loop(getMlx());
+	return ;
+}
+
 void* Window::getMlx() const
 {
 	return this->mlx;

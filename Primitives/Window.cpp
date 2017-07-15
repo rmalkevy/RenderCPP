@@ -8,6 +8,8 @@ Window::Window(int width, int height)
 {
 	// TODO зробити три режими екрану.
 	// TODO Там можна буде показати вказівники на функції
+	// TODO Зробити перевірку на вхідні ширину і висоту екрану не в конструктрі
+
 	setWidth(width);
 	setHeight(height);
 	prepareWindowAndImage();

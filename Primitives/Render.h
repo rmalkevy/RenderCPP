@@ -9,7 +9,7 @@
 #include "Vec3d.h"
 #include "Sphere.h"
 #include "Primitive.h"
-#include "mlx.h"
+#include "../minilibx/mlx.h"
 
 
 

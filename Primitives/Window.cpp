@@ -76,17 +76,17 @@ void* Window::getImage() const
 	return this->image;
 }
 
-char* Window::getLine()
+char* Window::getLine() const
 {
 	return this->line;
 }
 
-int Window::getWidth()
+int Window::getWidth() const
 {
 	return this->width;
 }
 
-int Window::getHeight()
+int Window::getHeight() const
 {
 	return this->height;
 }

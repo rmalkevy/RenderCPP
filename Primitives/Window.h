@@ -23,9 +23,9 @@ public:
 	void	*getMlx() const;
 	void	*getWin() const;
 	void	*getImage() const;
-	char	*getLine();
-	int 	getWidth();
-	int		getHeight();
+	char	*getLine() const;
+	int 	getWidth() const;
+	int		getHeight() const;
 
 	void	setMlx( void *mlx );
 	void	setWin( void *win );

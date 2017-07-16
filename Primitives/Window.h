@@ -5,8 +5,6 @@
 #ifndef RENDERCPP_WINDOW_H
 #define RENDERCPP_WINDOW_H
 
-#include "Render.h"
-
 class Window
 {
 public:

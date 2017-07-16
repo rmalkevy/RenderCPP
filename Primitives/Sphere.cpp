@@ -28,7 +28,7 @@ double minDistance( double t0, double t1 )
 	return ( t0 );
 }
 
-bool Sphere::intersection( const Vec3d &rOrigin, const Vec3d &rDir )
+bool Sphere::intersection( const Vec3d &rOrigin, const Vec3d &rDir, Camera &camera )
 {
 	Vec3d len = rOrigin - pos;
 
@@ -45,9 +45,9 @@ bool Sphere::intersection( const Vec3d &rOrigin, const Vec3d &rDir )
 	double t1 = (-b - sqrtDiscr) / 2;
 
 	t0 = minDistance(t0, t1);
-	if (t0 < t && t0 > 0.00001)
+	if (t0 < camera.getMaxDistance() && t0 > 0.00001)
 	{
-		t = t0;
+		camera.setMaxDistance(t0);
 		return (true);
 	}
 	return (false);
@@ -57,4 +57,14 @@ Vec3d Sphere::findNormal( const Vec3d &intersectionPoint )
 {
 	Vec3d normal = intersectionPoint - this->pos;
 	return ( normal.normalize() );
+}
+
+double Sphere::getIntersectDistance()
+{
+	return this->t;
+}
+
+Vec3d Sphere::getColor()
+{
+	return this->color;
 }

@@ -6,7 +6,7 @@
 
 Camera::Camera(Vec3d const &origin)
 {
-	setOrigin(origin);
+	setPosition(origin);
 	setDirection(Vec3d(0, 0, 1));
 	setAngle(Vec3d(0, 0, 0));
 	this->maxDistance = 100000;
@@ -20,7 +20,7 @@ Camera::~Camera()
 
 void Camera::findDirection(Vec3d const &pixel)
 {
-	Vec3d dir = pixel - getOrigin();
+	Vec3d dir = pixel - getPosition();
 	setDirection(dir.normalize());
 }
 
@@ -30,9 +30,9 @@ void Camera::setDirection(Vec3d const &dir)
 	return ;
 }
 
-void Camera::setOrigin(Vec3d const &orig)
+void Camera::setPosition(Vec3d const &orig)
 {
-	this->origin = orig;
+	this->position = orig;
 	return ;
 }
 
@@ -53,9 +53,9 @@ Vec3d Camera::getDirection() const
 	return this->direction;
 }
 
-Vec3d Camera::getOrigin() const
+Vec3d Camera::getPosition() const
 {
-	return  this->origin;
+	return  this->position;
 }
 
 Vec3d Camera::getAngle() const

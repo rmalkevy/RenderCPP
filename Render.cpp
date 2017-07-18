@@ -16,10 +16,11 @@ void    putColorToPixel(Window &window, const Vec3d &color, const double &x, con
 
 Vec3d	makePixelColor(const Camera &camera, const double &intensity)
 {
+//    std::cout << "x = " << camera.normal.x << " y = " << camera.normal.y << " z = " << camera.normal.x << std::endl;
     double lambert = camera.light.rayDirection.dot(camera.normal);
-    double red = (0.8 - camera.color.x) * pow(lambert, 15) * 0.9 * intensity;
-    double green = (0.8 - camera.color.y) * pow(lambert, 15) * 0.9 * intensity;
-    double blue = (0.8 - camera.color.z) * pow(lambert, 15) * 0.9 * intensity;
+    double red = camera.color.x * lambert * intensity;
+    double green = camera.color.y * lambert * intensity;
+    double blue =  camera.color.z * lambert * intensity;
     return Vec3d(red, green, blue);
 }
 
@@ -35,14 +36,14 @@ Vec3d	tracingLight( Camera &camera, std::list<Sphere> listObjects )
 	camera.light.rayOrigin = camera.intersectionPoint;
 	camera.light.rayDirection = distance.normalize();
 	renderPixel(camera, listObjects, camera.light.rayOrigin, camera.light.rayDirection);
-	if (!camera.intersect)
-	{
+//	if (camera.intersect)
+//	{
 		return makePixelColor(camera, 1);
-	}
-	else
-	{
-		return makePixelColor(camera, 0.1);
-	}
+//	}
+//	else
+//	{
+//		return makePixelColor(camera, 0.1);
+//	}
 }
 
 void	renderPixel( Camera &camera, std::list<Sphere> listObjects, Vec3d rayOrig, Vec3d rayDir )

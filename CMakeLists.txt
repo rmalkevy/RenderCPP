@@ -3,5 +3,5 @@ project(RenderCPP)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp Primitives/Sphere.h Primitives/Sphere.cpp Primitives/Primitive.h Primitives/Vector3f.h)
+set(SOURCE_FILES main.cpp includes Camera.cpp Light.cpp Render.cpp Sphere.cpp Vec3d.cpp Window.cpp)
 add_executable(RenderCPP ${SOURCE_FILES})

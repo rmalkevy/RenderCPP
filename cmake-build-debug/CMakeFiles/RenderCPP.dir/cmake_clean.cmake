@@ -1,6 +1,11 @@
 file(REMOVE_RECURSE
   "CMakeFiles/RenderCPP.dir/main.cpp.o"
-  "CMakeFiles/RenderCPP.dir/Primitives/Sphere.cpp.o"
+  "CMakeFiles/RenderCPP.dir/Camera.cpp.o"
+  "CMakeFiles/RenderCPP.dir/Light.cpp.o"
+  "CMakeFiles/RenderCPP.dir/Render.cpp.o"
+  "CMakeFiles/RenderCPP.dir/Sphere.cpp.o"
+  "CMakeFiles/RenderCPP.dir/Vec3d.cpp.o"
+  "CMakeFiles/RenderCPP.dir/Window.cpp.o"
   "RenderCPP.pdb"
   "RenderCPP"
 )

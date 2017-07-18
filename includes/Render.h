@@ -12,6 +12,12 @@
 #include "Camera.h"
 #include "Window.h"
 #include "Light.h"
+#include "Primitive.h"
+
+class Render
+{
+// TODO зробити клас, який зберігатиме проміжні результати роботи інших класів і функцій
+};
 
 void	renderImage(Window &window, Camera &camera, std::list<Sphere> listObjects);
 void	renderPixel( Camera &camera, std::list<Sphere> listObjects, Vec3d rayOrig, Vec3d rayDir );

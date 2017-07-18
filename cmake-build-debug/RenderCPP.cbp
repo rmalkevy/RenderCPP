@@ -103,6 +103,9 @@
 		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/includes">
 			<Option target="RenderCPP"/>
 		</Unit>
+		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/includes/Primitive.h">
+			<Option target="RenderCPP"/>
+		</Unit>
 		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/main.cpp">
 			<Option target="RenderCPP"/>
 		</Unit>

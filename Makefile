@@ -10,43 +10,42 @@
 #                                                                              #
 # **************************************************************************** #
 
-NAME = RTv1
+NAME = RenderCPP
 
-SRC =   main.cpp \
-        Primitives/Camera.cpp \
-        Primitives/Light.cpp \
-        Primitives/Render.cpp \
-        Primitives/Sphere.cpp \
-        Primitives/Vec3d.cpp \
-        Primitives/Window.cpp
+SRCCPP =		main.cpp \
+				Camera.cpp \
+				Light.cpp \
+				Render.cpp \
+				Sphere.cpp \
+				Vec3d.cpp \
+				Window.cpp
 
+SRCMLX = minilibx/*.c
 
-OBJ = $(SRC:.cpp=.o)
+OBJCPP = $(SRCCPP:.cpp=.o)
+OBJMLX = $(SRCMLX:.c=.o)
 
-CC = clang++
+GPP = clang++
 
 FLGS = -Wall -Wextra -Werror -g
 
-INC = ./
-
-LIB = -L ./libft/ -lft
-LIBMLX = -L ./minilibx/ -lft
+LIBMLX = -L ./minilibx/ -lmlx
+LIBCPP = -L ./includes/
 
 all: $(NAME)
 
-$(NAME): $(OBJ)
-		make -C ./libft/
-		$(CC) -o $(NAME) $(OBJ) $(LIB) $(LIBMLX) -lmlx -framework OpenGL -framework AppKit -g
+$(NAME): $(OBJCPP)
+		make -C ./minilibx/
+		$(GPP) -o $(NAME) $(OBJCPP) $(OBJMLX) $(LIBCPP) $(LIBMLX) -framework OpenGL -framework AppKit -g
 
 %.o: %.cpp
-		$(CC) $(FLGS) -c $<
+		$(GPP) $(FLGS) -c $<
 
 clean:
-		make -C ./libft/ clean
-		rm -rf $(OBJ)
+		make -C ./minilibx/ clean
+		rm -rf $(OBJCPP)
 
 fclean: clean
-		make -C ./libft/ fclean
 		rm -f $(NAME)
 
 re: fclean all

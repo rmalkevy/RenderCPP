@@ -40,6 +40,12 @@ Light.h
 Vec3d.h
 /nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/includes/Vec3d.h
 
+/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/includes/Primitive.h
+Vec3d.h
+/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/includes/Vec3d.h
+Camera.h
+/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/includes/Camera.h
+
 /nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/includes/Render.h
 iostream
 -
@@ -55,6 +61,8 @@ Window.h
 /nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/includes/Window.h
 Light.h
 /nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/includes/Light.h
+Primitive.h
+/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/includes/Primitive.h
 
 /nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/includes/Sphere.h
 iostream
@@ -65,6 +73,8 @@ Vec3d.h
 /nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/includes/Vec3d.h
 Camera.h
 /nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/includes/Camera.h
+Primitive.h
+/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/includes/Primitive.h
 
 /nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/includes/Vec3d.h
 iostream

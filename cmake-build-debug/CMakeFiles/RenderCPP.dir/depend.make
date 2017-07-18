@@ -13,6 +13,7 @@ CMakeFiles/RenderCPP.dir/Light.cpp.o: ../includes/Vec3d.h
 CMakeFiles/RenderCPP.dir/Render.cpp.o: ../Render.cpp
 CMakeFiles/RenderCPP.dir/Render.cpp.o: ../includes/Camera.h
 CMakeFiles/RenderCPP.dir/Render.cpp.o: ../includes/Light.h
+CMakeFiles/RenderCPP.dir/Render.cpp.o: ../includes/Primitive.h
 CMakeFiles/RenderCPP.dir/Render.cpp.o: ../includes/Render.h
 CMakeFiles/RenderCPP.dir/Render.cpp.o: ../includes/Sphere.h
 CMakeFiles/RenderCPP.dir/Render.cpp.o: ../includes/Vec3d.h
@@ -22,6 +23,7 @@ CMakeFiles/RenderCPP.dir/Render.cpp.o: ../minilibx/mlx.h
 CMakeFiles/RenderCPP.dir/Sphere.cpp.o: ../Sphere.cpp
 CMakeFiles/RenderCPP.dir/Sphere.cpp.o: ../includes/Camera.h
 CMakeFiles/RenderCPP.dir/Sphere.cpp.o: ../includes/Light.h
+CMakeFiles/RenderCPP.dir/Sphere.cpp.o: ../includes/Primitive.h
 CMakeFiles/RenderCPP.dir/Sphere.cpp.o: ../includes/Sphere.h
 CMakeFiles/RenderCPP.dir/Sphere.cpp.o: ../includes/Vec3d.h
 
@@ -34,6 +36,7 @@ CMakeFiles/RenderCPP.dir/Window.cpp.o: ../minilibx/mlx.h
 
 CMakeFiles/RenderCPP.dir/main.cpp.o: ../includes/Camera.h
 CMakeFiles/RenderCPP.dir/main.cpp.o: ../includes/Light.h
+CMakeFiles/RenderCPP.dir/main.cpp.o: ../includes/Primitive.h
 CMakeFiles/RenderCPP.dir/main.cpp.o: ../includes/Render.h
 CMakeFiles/RenderCPP.dir/main.cpp.o: ../includes/Sphere.h
 CMakeFiles/RenderCPP.dir/main.cpp.o: ../includes/Vec3d.h

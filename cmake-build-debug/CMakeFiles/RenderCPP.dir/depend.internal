@@ -14,6 +14,7 @@ CMakeFiles/RenderCPP.dir/Render.cpp.o
  /nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/Render.cpp
  /nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/includes/Camera.h
  /nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/includes/Light.h
+ /nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/includes/Primitive.h
  /nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/includes/Render.h
  /nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/includes/Sphere.h
  /nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/includes/Vec3d.h
@@ -23,6 +24,7 @@ CMakeFiles/RenderCPP.dir/Sphere.cpp.o
  /nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/Sphere.cpp
  /nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/includes/Camera.h
  /nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/includes/Light.h
+ /nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/includes/Primitive.h
  /nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/includes/Sphere.h
  /nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/includes/Vec3d.h
 CMakeFiles/RenderCPP.dir/Vec3d.cpp.o
@@ -35,6 +37,7 @@ CMakeFiles/RenderCPP.dir/Window.cpp.o
 CMakeFiles/RenderCPP.dir/main.cpp.o
  /nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/includes/Camera.h
  /nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/includes/Light.h
+ /nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/includes/Primitive.h
  /nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/includes/Render.h
  /nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/includes/Sphere.h
  /nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/includes/Vec3d.h

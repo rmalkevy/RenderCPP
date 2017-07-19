@@ -16,10 +16,19 @@
 
 class Render
 {
+
 // TODO зробити клас, який зберігатиме проміжні результати роботи інших класів і функцій
 };
 
-void	renderImage(Window &window, Camera &camera, std::vector< IPrimitive*> &listObjects);
-void	renderPixel( Camera &camera, std::vector< IPrimitive*> &listObjects, Vec3d rayOrig, Vec3d rayDir );
+class Intersection
+{
+public:
+    Vec3d   intersectionPoint;
+    Vec3d   normal;
+    Vec3d   color;
+    bool    intersect;
+};
+void	renderImage(Window &window, Camera &camera, std::list< IPrimitive*> &listObjects);
+void	renderPixel( Camera &camera, std::list< IPrimitive*> &listObjects, Vec3d rayOrig, Vec3d rayDir );
 
 #endif //RENDERCPP_RENDER_H

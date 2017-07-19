@@ -25,9 +25,9 @@ SRCMLX = minilibx/*.c
 OBJCPP = $(SRCCPP:.cpp=.o)
 OBJMLX = $(SRCMLX:.c=.o)
 
-GPP = clang++
+GPP = g++
 
-FLGS = -Wall -Wextra -Werror -g
+FLGS = -Wall -Wextra -Werror -std=c++11 -g
 
 LIBMLX = -L ./minilibx/ -lmlx
 LIBCPP = -L ./includes/

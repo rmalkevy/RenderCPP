@@ -24,7 +24,7 @@ Vec3d	makePixelColor(const Camera &camera, const double &intensity)
     return Vec3d(red, green, blue);
 }
 
-Vec3d	tracingLight( Camera &camera, std::list<Sphere> listObjects )
+Vec3d	tracingLight( Camera &camera, std::vector< IPrimitive*> listObjects )
 {
 	Vec3d distance = camera.light.position - camera.intersectionPoint;
 	camera.setMaxDistance(distance.length());
@@ -46,23 +46,23 @@ Vec3d	tracingLight( Camera &camera, std::list<Sphere> listObjects )
 //	}
 }
 
-void	renderPixel( Camera &camera, std::list<Sphere> listObjects, Vec3d rayOrig, Vec3d rayDir )
+void	renderPixel( Camera &camera, std::vector< IPrimitive*> &listObjects, Vec3d rayOrig, Vec3d rayDir )
 {
-	for ( std::list<Sphere>::iterator it = listObjects.begin(); it != listObjects.end(); it++ )
+	for ( int i = 0; i < 1; i++ )
 	{
-		if ( it->intersection(rayOrig, rayDir, camera) )
+		if ( (*listObjects[i]).intersection(rayOrig, rayDir, camera) )
 		{
 			camera.intersectionPoint = camera.getDirection() * camera.getMaxDistance();
 			camera.intersectionPoint += camera.getPosition();
-			camera.normal = it->findNormal(camera.intersectionPoint);
-			camera.color = it->getColor();
+			camera.normal = (*listObjects[i]).findNormal(camera.intersectionPoint);
+			camera.color = (*listObjects[i]).getColor();
 			camera.intersect = true;
 		}
 	}
 
 }
 
-void	tracingScreen( Window &window, Camera &camera, std::list<Sphere> listObjects )
+void	tracingScreen( Window &window, Camera &camera, std::vector< IPrimitive*> &listObjects )
 {
 	double halfHeight = window.getHeight() / 2;
 	double halfWidth = window.getWidth() / 2;
@@ -84,7 +84,7 @@ void	tracingScreen( Window &window, Camera &camera, std::list<Sphere> listObject
 	}
 }
 
-void	renderImage( Window &window, Camera &camera, std::list<Sphere> listObjects )
+void	renderImage( Window &window, Camera &camera, std::vector< IPrimitive*> &listObjects )
 {
     window.clearWindow();
 	window.createImage();

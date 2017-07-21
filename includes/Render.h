@@ -17,18 +17,23 @@
 class Render
 {
 public:
-    Render(Window &window, Camera &camera, std::list< IPrimitive*> &listObjects);
+    Render(std::shared_ptr<Window>  window,
+           std::shared_ptr<Camera>  camera,
+           std::list<IPrimitive*>   &listObjects);
+
     ~Render();
-    Window *window;
-    Camera *camera;
+    std::shared_ptr<Window> window;
+    std::shared_ptr<Camera> camera;
     std::list< IPrimitive*> *listObjects;
 // TODO зробити клас, який зберігатиме проміжні результати роботи інших класів і функцій
 };
 
-Render::Render(Window &window, Camera &camera, std::list<IPrimitive *> &listObjects)
+Render::Render(std::shared_ptr<Window>  window,
+               std::shared_ptr<Camera>  camera,
+               std::list<IPrimitive *>  &listObjects)
 {
-    this->window = &window;
-    this->camera = &camera;
+    this->window = window;
+    this->camera = camera;
     this->listObjects = &listObjects;
 }
 
@@ -36,6 +41,10 @@ Render::~Render()
 {
     return ;
 }
+
+
+
+
 
 
 
@@ -50,6 +59,12 @@ public:
     bool    intersect;
 };
 void	renderImage(Render &render);
-void	renderPixel( Camera &camera, std::list< IPrimitive*> &listObjects, Vec3d rayOrig, Vec3d rayDir );
+void	renderPixel(Camera &camera,
+                    std::list< IPrimitive*> &listObjects,
+                    Vec3d rayOrig,
+                    Vec3d rayDir);
+void	tracingScreen(Window &window,
+                      Camera &camera,
+                      std::list< IPrimitive*> &listObjects );
 
 #endif //RENDERCPP_RENDER_H

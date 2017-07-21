@@ -17,7 +17,7 @@ SRCCPP =		main.cpp \
 				Light.cpp \
 				Sphere.cpp \
 				Vec3d.cpp \
-				Window.cpp \
+				Window.cpp
 
 
 SRCMLX = minilibx/*.c

@@ -117,33 +117,28 @@ void	renderImage( Render &render )
     tracingScreen(*render.window, *render.camera, *render.listObjects);
 
     render.window->putImageToWindow();
+
+// TODO погано пам'ять фрішиться коли різні клавіші нажимаю. Перевірити що там і як
+
     keyboardControl(render); // TODO написати функцію з обробки клавіш
     render.window->infinityShowingImage();
 }
 
 int main()
 {
-	//std::shared_ptr<Window> window = std::make_shared<Window>();
+	auto window = std::make_shared<Window>(800, 600);
 
-	Window *window = new Window(800, 600);
+	//Window *window = new Window(800, 600);
 
 	Light light(Vec3d(500, 400, -1000), Vec3d(1, 1, 1));
-	Camera *camera = new Camera(Vec3d(0, 0, -2000), light);
-	std::list< IPrimitive*> listObjects;
-//    IPrimitive *iPrimitive1 = new Sphere(Vec3d(0, 0, -100), Vec3d(1, 0, 0), 80);
-//    IPrimitive *iPrimitive2 = new Sphere(Vec3d(0, -100, -200), Vec3d(0, 1, 0), 100);
-//    IPrimitive *iPrimitive3 = new Sphere(Vec3d(100, 0, -100), Vec3d(0, 0, 1), 90);
+	auto camera = std::make_shared<Camera>(Vec3d(0, 0, -2000), light);
+	std::list<IPrimitive*> listObjects;
 
     listObjects.push_back(new Sphere(Vec3d(0, 0, -100), Vec3d(1, 0, 0), 80));
     listObjects.push_back(new Sphere(Vec3d(0, -100, -200), Vec3d(0, 1, 0), 100));
     listObjects.push_back(new Sphere(Vec3d(100, 0, -100), Vec3d(0, 0, 1), 90));
 
-
-//	listObjects.push_back(Sphere(Vec3d(0, 0, -100), Vec3d(1, 0, 0), 80));
-//	listObjects.push_back(Sphere(Vec3d(0, -100, -200), Vec3d(0, 1, 0), 100));
-//	listObjects.push_back(Sphere(Vec3d(100, 0, -100), Vec3d(0, 0, 1), 90));
-
-    Render render(*window, *camera, listObjects);
+    Render render(window, camera, listObjects);
 	renderImage(render);
 	//TODO list with 3 spheres
 	return 0;

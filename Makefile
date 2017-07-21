@@ -15,10 +15,10 @@ NAME = RenderCPP
 SRCCPP =		main.cpp \
 				Camera.cpp \
 				Light.cpp \
-				Render.cpp \
 				Sphere.cpp \
 				Vec3d.cpp \
-				Window.cpp
+				Window.cpp \
+
 
 SRCMLX = minilibx/*.c
 

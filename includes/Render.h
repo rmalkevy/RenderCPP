@@ -16,9 +16,30 @@
 
 class Render
 {
-
+public:
+    Render(Window &window, Camera &camera, std::list< IPrimitive*> &listObjects);
+    ~Render();
+    Window *window;
+    Camera *camera;
+    std::list< IPrimitive*> *listObjects;
 // TODO зробити клас, який зберігатиме проміжні результати роботи інших класів і функцій
 };
+
+Render::Render(Window &window, Camera &camera, std::list<IPrimitive *> &listObjects)
+{
+    this->window = &window;
+    this->camera = &camera;
+    this->listObjects = &listObjects;
+}
+
+Render::~Render()
+{
+    return ;
+}
+
+
+
+
 
 class Intersection
 {
@@ -28,7 +49,7 @@ public:
     Vec3d   color;
     bool    intersect;
 };
-void	renderImage(Window &window, Camera &camera, std::list< IPrimitive*> &listObjects);
+void	renderImage(Render &render);
 void	renderPixel( Camera &camera, std::list< IPrimitive*> &listObjects, Vec3d rayOrig, Vec3d rayDir );
 
 #endif //RENDERCPP_RENDER_H

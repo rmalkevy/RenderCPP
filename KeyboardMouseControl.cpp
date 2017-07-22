@@ -3,6 +3,18 @@
 //
 
 #include "includes/KeyboardMouseControl.h"
+#include "includes/RenderFunctions.h"
+
+KeyboardMouseControl::KeyboardMouseControl( Render &render)
+{
+    this->render = &render;
+    return ;
+}
+
+KeyboardMouseControl::~KeyboardMouseControl()
+{
+    return ;
+}
 
 int		my_key_funct(int keycode, void *mod)
 {
@@ -19,10 +31,10 @@ int		my_key_funct(int keycode, void *mod)
 }
 
 
-void KeyboardMouseControl::keyboardControl(Render &render)
+void KeyboardMouseControl::keyboardControl()
 {
     //TODO зробити клас, який буде включати в себе Window, Camera, List
 
-    mlx_hook(render.window->getWin(), 2, 5, (int (*)())my_key_funct, (void*)(&render));
+    mlx_hook(render->window->getWin(), 2, 5, (int (*)())my_key_funct, (void*)(this->render));
     return ;
 }

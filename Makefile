@@ -19,7 +19,8 @@ SRCCPP =		main.cpp \
 				Sphere.cpp \
 				Plane.cpp \
 				Vec3d.cpp \
-				Window.cpp
+				Window.cpp \
+				KeyboardMouseControl.cpp
 
 
 SRCMLX = minilibx/*.c

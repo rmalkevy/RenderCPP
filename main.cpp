@@ -3,6 +3,7 @@
 #include "includes/Sphere.h"
 #include "includes/Plane.h"
 #include "includes/RenderFunctions.h"
+#include "includes/KeyboardMouseControl.h"
 
 //
 // Created by Roman Malkevych on 7/13/17.
@@ -89,7 +90,7 @@ void	tracingScreen( Window &window, Camera &camera, std::list< IPrimitive*> &lis
     }
 }
 
-int		my_key_funct(int keycode, void *mod)
+int		control(int keycode, void *mod)
 {
 //    std::cout << "break point" << std::endl;
 
@@ -116,7 +117,7 @@ void keyboardControl(Render &render)
 {
     //TODO зробити клас, який буде включати в себе Window, Camera, List
 
-    mlx_hook(render.window->getWin(), 2, 5, (int (*)())my_key_funct, (void*)(&render));
+    mlx_hook(render.window->getWin(), 2, 5, (int (*)())control, (void*)(&render));
     return ;
 }
 
@@ -124,6 +125,7 @@ static int a = -1;
 
 void	renderImage( Render &render )
 {
+    KeyboardMouseControl keyboardMouseControl(render);
     a++;
     std::cout << "break point " << a << std::endl;
     render.window->clearWindow();
@@ -135,7 +137,7 @@ void	renderImage( Render &render )
 
 // TODO погано пам'ять фрішиться коли різні клавіші нажимаю. Перевірити що там і як
 
-    keyboardControl(render); // TODO написати функцію з обробки клавіш
+    keyboardMouseControl.keyboardControl(); // TODO написати функцію з обробки клавіш
     std::cout << "break point " << a << std::endl;
     render.window->infinityShowingImage();
     std::cout << "break point " << a << std::endl;

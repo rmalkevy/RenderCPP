@@ -7,25 +7,17 @@
 
 #include "Window.h"
 #include "Camera.h"
-#include "Primitive.h"
-#include <list>
+#include "Render.h"
 
 class KeyboardMouseControl
 {
 public:
-    KeyboardMouseControl();
+    KeyboardMouseControl( Render &render);
     ~KeyboardMouseControl();
-    void keyboardControl(Render &render);
+    void keyboardControl();
+
+private:
+    Render *render;
 };
-
-KeyboardMouseControl::KeyboardMouseControl()
-{
-    return ;
-}
-
-KeyboardMouseControl::~KeyboardMouseControl()
-{
-    return ;
-}
 
 #endif //RENDERCPP_KEYBOARDMOUSECONTROL_H

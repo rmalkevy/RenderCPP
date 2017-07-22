@@ -6,6 +6,7 @@
 #define RENDERCPP_WINDOW_H
 
 #include <iostream>
+
 extern "C" {
 #include "../minilibx/mlx.h"
 }

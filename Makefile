@@ -13,6 +13,7 @@
 NAME = RenderCPP
 
 SRCCPP =		main.cpp \
+				Render.cpp \
 				Camera.cpp \
 				Light.cpp \
 				Sphere.cpp \

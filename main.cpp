@@ -1,6 +1,9 @@
 
 #include "includes/Render.h"
+#include "includes/Sphere.h"
 #include "includes/Plane.h"
+#include "includes/RenderFunctions.h"
+
 //
 // Created by Roman Malkevych on 7/13/17.
 //

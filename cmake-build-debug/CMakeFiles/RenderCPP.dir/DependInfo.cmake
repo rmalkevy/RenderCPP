@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/Camera.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/cmake-build-debug/CMakeFiles/RenderCPP.dir/Camera.cpp.o"
-  "/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/Light.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/cmake-build-debug/CMakeFiles/RenderCPP.dir/Light.cpp.o"
-  "/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/Plane.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/cmake-build-debug/CMakeFiles/RenderCPP.dir/Plane.cpp.o"
-  "/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/Render.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/cmake-build-debug/CMakeFiles/RenderCPP.dir/Render.cpp.o"
-  "/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/Sphere.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/cmake-build-debug/CMakeFiles/RenderCPP.dir/Sphere.cpp.o"
-  "/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/Vec3d.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/cmake-build-debug/CMakeFiles/RenderCPP.dir/Vec3d.cpp.o"
-  "/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/Window.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/cmake-build-debug/CMakeFiles/RenderCPP.dir/Window.cpp.o"
-  "/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/main.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/cmake-build-debug/CMakeFiles/RenderCPP.dir/main.cpp.o"
+  "/Users/mac/CLionProjects/RenderCPP/Camera.cpp" "/Users/mac/CLionProjects/RenderCPP/cmake-build-debug/CMakeFiles/RenderCPP.dir/Camera.cpp.o"
+  "/Users/mac/CLionProjects/RenderCPP/Light.cpp" "/Users/mac/CLionProjects/RenderCPP/cmake-build-debug/CMakeFiles/RenderCPP.dir/Light.cpp.o"
+  "/Users/mac/CLionProjects/RenderCPP/Plane.cpp" "/Users/mac/CLionProjects/RenderCPP/cmake-build-debug/CMakeFiles/RenderCPP.dir/Plane.cpp.o"
+  "/Users/mac/CLionProjects/RenderCPP/Render.cpp" "/Users/mac/CLionProjects/RenderCPP/cmake-build-debug/CMakeFiles/RenderCPP.dir/Render.cpp.o"
+  "/Users/mac/CLionProjects/RenderCPP/Sphere.cpp" "/Users/mac/CLionProjects/RenderCPP/cmake-build-debug/CMakeFiles/RenderCPP.dir/Sphere.cpp.o"
+  "/Users/mac/CLionProjects/RenderCPP/Vec3d.cpp" "/Users/mac/CLionProjects/RenderCPP/cmake-build-debug/CMakeFiles/RenderCPP.dir/Vec3d.cpp.o"
+  "/Users/mac/CLionProjects/RenderCPP/Window.cpp" "/Users/mac/CLionProjects/RenderCPP/cmake-build-debug/CMakeFiles/RenderCPP.dir/Window.cpp.o"
+  "/Users/mac/CLionProjects/RenderCPP/main.cpp" "/Users/mac/CLionProjects/RenderCPP/cmake-build-debug/CMakeFiles/RenderCPP.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

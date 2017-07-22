@@ -27,17 +27,4 @@ private:
     double t;
 };
 
-Plane::Plane(Vec3d position, Vec3d direction, Vec3d color)
-{
-    this->position = position;
-    this->direction = direction;
-    this->color = color;
-    return ;
-}
-
-Plane::~Plane()
-{
-    return ;
-}
-
 #endif //RENDERCPP_PLANE_H

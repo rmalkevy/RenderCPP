@@ -4,6 +4,19 @@
 
 #include "includes/Plane.h"
 
+Plane::Plane(Vec3d position, Vec3d direction, Vec3d color)
+{
+    this->position = position;
+    this->direction = direction;
+    this->color = color;
+    return ;
+}
+
+Plane::~Plane()
+{
+    return ;
+}
+
 bool Plane::intersection(const Vec3d &rOrigin, const Vec3d &rDir, Camera &camera)
 {
     double a = this->direction.dot(rDir);

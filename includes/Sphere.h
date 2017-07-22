@@ -5,8 +5,6 @@
 #ifndef RENDERCPP_SPHERE_H
 #define RENDERCPP_SPHERE_H
 
-#include <iostream>
-#include <vector>
 #include "Vec3d.h"
 #include "Camera.h"
 #include "Primitive.h"

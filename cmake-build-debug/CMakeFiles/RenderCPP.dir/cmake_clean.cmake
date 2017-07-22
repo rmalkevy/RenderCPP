@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/RenderCPP.dir/Sphere.cpp.o"
   "CMakeFiles/RenderCPP.dir/Vec3d.cpp.o"
   "CMakeFiles/RenderCPP.dir/Window.cpp.o"
+  "CMakeFiles/RenderCPP.dir/Plane.cpp.o"
   "RenderCPP.pdb"
   "RenderCPP"
 )

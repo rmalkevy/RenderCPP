@@ -16,6 +16,7 @@ SRCCPP =		main.cpp \
 				Camera.cpp \
 				Light.cpp \
 				Sphere.cpp \
+				Plane.cpp \
 				Vec3d.cpp \
 				Window.cpp
 

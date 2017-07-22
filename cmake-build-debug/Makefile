@@ -177,6 +177,33 @@ Light.cpp.s:
 	$(MAKE) -f CMakeFiles/RenderCPP.dir/build.make CMakeFiles/RenderCPP.dir/Light.cpp.s
 .PHONY : Light.cpp.s
 
+Plane.o: Plane.cpp.o
+
+.PHONY : Plane.o
+
+# target to build an object file
+Plane.cpp.o:
+	$(MAKE) -f CMakeFiles/RenderCPP.dir/build.make CMakeFiles/RenderCPP.dir/Plane.cpp.o
+.PHONY : Plane.cpp.o
+
+Plane.i: Plane.cpp.i
+
+.PHONY : Plane.i
+
+# target to preprocess a source file
+Plane.cpp.i:
+	$(MAKE) -f CMakeFiles/RenderCPP.dir/build.make CMakeFiles/RenderCPP.dir/Plane.cpp.i
+.PHONY : Plane.cpp.i
+
+Plane.s: Plane.cpp.s
+
+.PHONY : Plane.s
+
+# target to generate assembly for a file
+Plane.cpp.s:
+	$(MAKE) -f CMakeFiles/RenderCPP.dir/build.make CMakeFiles/RenderCPP.dir/Plane.cpp.s
+.PHONY : Plane.cpp.s
+
 Render.o: Render.cpp.o
 
 .PHONY : Render.o
@@ -327,6 +354,9 @@ help:
 	@echo "... Light.o"
 	@echo "... Light.i"
 	@echo "... Light.s"
+	@echo "... Plane.o"
+	@echo "... Plane.i"
+	@echo "... Plane.s"
 	@echo "... Render.o"
 	@echo "... Render.i"
 	@echo "... Render.s"

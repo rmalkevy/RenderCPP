@@ -1,6 +1,6 @@
 
 #include "includes/Render.h"
-
+#include "includes/Plane.h"
 //
 // Created by Roman Malkevych on 7/13/17.
 //
@@ -146,13 +146,14 @@ int main()
 
 	Light light(Vec3d(500, 400, -1000), Vec3d(1, 1, 1));
 	Camera *camera = new Camera(Vec3d(0, 0, -2000), light);
-	std::list<IPrimitive*> listObjects;
+	std::list<IPrimitive*> listPrimitives;
 
-    listObjects.push_back(new Sphere(Vec3d(0, 0, -100), Vec3d(1, 0, 0), 80));
-    listObjects.push_back(new Sphere(Vec3d(0, -100, -200), Vec3d(0, 1, 0), 100));
-    listObjects.push_back(new Sphere(Vec3d(100, 0, -100), Vec3d(0, 0, 1), 90));
+    listPrimitives.push_back(new Sphere(Vec3d(0, 0, -100), Vec3d(1, 0, 0), 80));
+    listPrimitives.push_back(new Sphere(Vec3d(0, -100, -200), Vec3d(0, 1, 0), 100));
+    listPrimitives.push_back(new Sphere(Vec3d(100, 0, -100), Vec3d(0, 0, 1), 90));
+	listPrimitives.push_back(new Plane(Vec3d(0, -100, 0), Vec3d(0, 1, 0), Vec3d(0.5, 0.9, 0)));
 
-    Render render(window, camera, listObjects);
+    Render render(window, camera, listPrimitives);
 	renderImage(render);
 	//TODO list with 3 spheres
 	return 0;

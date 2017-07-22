@@ -88,6 +88,9 @@
 		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/Light.cpp">
 			<Option target="RenderCPP"/>
 		</Unit>
+		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/Plane.cpp">
+			<Option target="RenderCPP"/>
+		</Unit>
 		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/Render.cpp">
 			<Option target="RenderCPP"/>
 		</Unit>
@@ -101,6 +104,9 @@
 			<Option target="RenderCPP"/>
 		</Unit>
 		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/includes">
+			<Option target="RenderCPP"/>
+		</Unit>
+		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/includes/Plane.h">
 			<Option target="RenderCPP"/>
 		</Unit>
 		<Unit filename="/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/includes/Primitive.h">

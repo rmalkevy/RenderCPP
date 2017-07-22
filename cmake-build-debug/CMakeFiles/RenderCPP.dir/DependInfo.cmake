@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/Camera.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/cmake-build-debug/CMakeFiles/RenderCPP.dir/Camera.cpp.o"
   "/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/Light.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/cmake-build-debug/CMakeFiles/RenderCPP.dir/Light.cpp.o"
+  "/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/Plane.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/cmake-build-debug/CMakeFiles/RenderCPP.dir/Plane.cpp.o"
   "/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/Render.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/cmake-build-debug/CMakeFiles/RenderCPP.dir/Render.cpp.o"
   "/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/Sphere.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/cmake-build-debug/CMakeFiles/RenderCPP.dir/Sphere.cpp.o"
   "/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/Vec3d.cpp" "/nfs/2016/r/rmalkevy/CLionProjects/RenderCPP/cmake-build-debug/CMakeFiles/RenderCPP.dir/Vec3d.cpp.o"

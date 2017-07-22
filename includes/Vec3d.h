@@ -8,7 +8,7 @@
 #include <iostream>
 #include <cmath>
 
-class Vec3d
+class Vec3d final
 {
 public:
 	double x, y, z;

@@ -16,10 +16,10 @@ class Sphere : public IPrimitive
 public:
 	Sphere(Vec3d position, Vec3d color, double radius); // TODO додати аргумент direction
 	~Sphere();
-	bool	intersection(const Vec3d &rOrigin, const Vec3d &rDir, Camera &camera);
-	Vec3d	findNormal(const Vec3d & intersectionPoint);
-	double	getIntersectDistance();
-	Vec3d	getColor();
+	bool	intersection(const Vec3d &rOrigin, const Vec3d &rDir, Camera &camera) override ;
+	Vec3d	findNormal(const Vec3d & intersectionPoint) override ;
+	double	getIntersectDistance() ;
+	Vec3d	getColor() override ;
 
 
 private:

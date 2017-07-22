@@ -14,23 +14,21 @@
 #include "Light.h"
 #include "Primitive.h"
 
-class Render
+class Render final
 {
 public:
-    Render(std::shared_ptr<Window>  window,
-           std::shared_ptr<Camera>  camera,
+    Render(Window *window,
+           Camera *camera,
            std::list<IPrimitive*>   &listObjects);
 
     ~Render();
-    std::shared_ptr<Window> window;
-    std::shared_ptr<Camera> camera;
+    Window *window;
+    Camera *camera;
     std::list< IPrimitive*> *listObjects;
 // TODO зробити клас, який зберігатиме проміжні результати роботи інших класів і функцій
 };
 
-Render::Render(std::shared_ptr<Window>  window,
-               std::shared_ptr<Camera>  camera,
-               std::list<IPrimitive *>  &listObjects)
+Render::Render(Window *window, Camera *camera, std::list<IPrimitive *>  &listObjects)
 {
     this->window = window;
     this->camera = camera;

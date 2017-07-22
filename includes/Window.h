@@ -10,7 +10,7 @@ extern "C" {
 #include "../minilibx/mlx.h"
 }
 
-class Window
+class Window final
 {
 public:
 	Window(int width, int height);

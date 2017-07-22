@@ -8,7 +8,7 @@
 #include "Vec3d.h"
 #include "Light.h"
 
-class Camera
+class Camera final
 {
 public:
 	Camera(const Vec3d &origin, const Light &light);

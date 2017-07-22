@@ -7,7 +7,7 @@
 
 #include "Vec3d.h"
 
-class Light
+class Light final
 {
 public:
     Light();

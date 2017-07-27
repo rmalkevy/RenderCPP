@@ -19,7 +19,7 @@ Sphere::~Sphere()
 	return ;
 }
 
-double minDistance( double t0, double t1 )
+inline double minDistance( double t0, double t1 )
 {
 	if (t0 < 0)
 		t0 = t1;

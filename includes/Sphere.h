@@ -5,8 +5,8 @@
 #ifndef RENDERCPP_SPHERE_H
 #define RENDERCPP_SPHERE_H
 
-#include "Vec3d.h"
-#include "Camera.h"
+//#include "Vec3d.h"
+//#include "Camera.h"
 #include "Primitive.h"
 
 class Sphere : public IPrimitive
@@ -28,4 +28,5 @@ private:
 	double sqRadius;
 	double t;
 };
+
 #endif

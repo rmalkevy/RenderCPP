@@ -150,6 +150,60 @@ Camera.cpp.s:
 	$(MAKE) -f CMakeFiles/RenderCPP.dir/build.make CMakeFiles/RenderCPP.dir/Camera.cpp.s
 .PHONY : Camera.cpp.s
 
+Cone.o: Cone.cpp.o
+
+.PHONY : Cone.o
+
+# target to build an object file
+Cone.cpp.o:
+	$(MAKE) -f CMakeFiles/RenderCPP.dir/build.make CMakeFiles/RenderCPP.dir/Cone.cpp.o
+.PHONY : Cone.cpp.o
+
+Cone.i: Cone.cpp.i
+
+.PHONY : Cone.i
+
+# target to preprocess a source file
+Cone.cpp.i:
+	$(MAKE) -f CMakeFiles/RenderCPP.dir/build.make CMakeFiles/RenderCPP.dir/Cone.cpp.i
+.PHONY : Cone.cpp.i
+
+Cone.s: Cone.cpp.s
+
+.PHONY : Cone.s
+
+# target to generate assembly for a file
+Cone.cpp.s:
+	$(MAKE) -f CMakeFiles/RenderCPP.dir/build.make CMakeFiles/RenderCPP.dir/Cone.cpp.s
+.PHONY : Cone.cpp.s
+
+Cylinder.o: Cylinder.cpp.o
+
+.PHONY : Cylinder.o
+
+# target to build an object file
+Cylinder.cpp.o:
+	$(MAKE) -f CMakeFiles/RenderCPP.dir/build.make CMakeFiles/RenderCPP.dir/Cylinder.cpp.o
+.PHONY : Cylinder.cpp.o
+
+Cylinder.i: Cylinder.cpp.i
+
+.PHONY : Cylinder.i
+
+# target to preprocess a source file
+Cylinder.cpp.i:
+	$(MAKE) -f CMakeFiles/RenderCPP.dir/build.make CMakeFiles/RenderCPP.dir/Cylinder.cpp.i
+.PHONY : Cylinder.cpp.i
+
+Cylinder.s: Cylinder.cpp.s
+
+.PHONY : Cylinder.s
+
+# target to generate assembly for a file
+Cylinder.cpp.s:
+	$(MAKE) -f CMakeFiles/RenderCPP.dir/build.make CMakeFiles/RenderCPP.dir/Cylinder.cpp.s
+.PHONY : Cylinder.cpp.s
+
 Light.o: Light.cpp.o
 
 .PHONY : Light.o
@@ -176,6 +230,33 @@ Light.s: Light.cpp.s
 Light.cpp.s:
 	$(MAKE) -f CMakeFiles/RenderCPP.dir/build.make CMakeFiles/RenderCPP.dir/Light.cpp.s
 .PHONY : Light.cpp.s
+
+PhongColor.o: PhongColor.cpp.o
+
+.PHONY : PhongColor.o
+
+# target to build an object file
+PhongColor.cpp.o:
+	$(MAKE) -f CMakeFiles/RenderCPP.dir/build.make CMakeFiles/RenderCPP.dir/PhongColor.cpp.o
+.PHONY : PhongColor.cpp.o
+
+PhongColor.i: PhongColor.cpp.i
+
+.PHONY : PhongColor.i
+
+# target to preprocess a source file
+PhongColor.cpp.i:
+	$(MAKE) -f CMakeFiles/RenderCPP.dir/build.make CMakeFiles/RenderCPP.dir/PhongColor.cpp.i
+.PHONY : PhongColor.cpp.i
+
+PhongColor.s: PhongColor.cpp.s
+
+.PHONY : PhongColor.s
+
+# target to generate assembly for a file
+PhongColor.cpp.s:
+	$(MAKE) -f CMakeFiles/RenderCPP.dir/build.make CMakeFiles/RenderCPP.dir/PhongColor.cpp.s
+.PHONY : PhongColor.cpp.s
 
 Plane.o: Plane.cpp.o
 
@@ -351,9 +432,18 @@ help:
 	@echo "... Camera.o"
 	@echo "... Camera.i"
 	@echo "... Camera.s"
+	@echo "... Cone.o"
+	@echo "... Cone.i"
+	@echo "... Cone.s"
+	@echo "... Cylinder.o"
+	@echo "... Cylinder.i"
+	@echo "... Cylinder.s"
 	@echo "... Light.o"
 	@echo "... Light.i"
 	@echo "... Light.s"
+	@echo "... PhongColor.o"
+	@echo "... PhongColor.i"
+	@echo "... PhongColor.s"
 	@echo "... Plane.o"
 	@echo "... Plane.i"
 	@echo "... Plane.s"

@@ -85,7 +85,16 @@
 		<Unit filename="/Users/mac/CLionProjects/RenderCPP/Camera.cpp">
 			<Option target="RenderCPP"/>
 		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/RenderCPP/Cone.cpp">
+			<Option target="RenderCPP"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/RenderCPP/Cylinder.cpp">
+			<Option target="RenderCPP"/>
+		</Unit>
 		<Unit filename="/Users/mac/CLionProjects/RenderCPP/Light.cpp">
+			<Option target="RenderCPP"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/RenderCPP/PhongColor.cpp">
 			<Option target="RenderCPP"/>
 		</Unit>
 		<Unit filename="/Users/mac/CLionProjects/RenderCPP/Plane.cpp">
@@ -104,6 +113,12 @@
 			<Option target="RenderCPP"/>
 		</Unit>
 		<Unit filename="/Users/mac/CLionProjects/RenderCPP/includes">
+			<Option target="RenderCPP"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/RenderCPP/includes/Cone.h">
+			<Option target="RenderCPP"/>
+		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/RenderCPP/includes/Cylinder.h">
 			<Option target="RenderCPP"/>
 		</Unit>
 		<Unit filename="/Users/mac/CLionProjects/RenderCPP/includes/Plane.h">

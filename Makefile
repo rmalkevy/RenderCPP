@@ -18,6 +18,7 @@ SRCCPP =		main.cpp \
 				Light.cpp \
 				Sphere.cpp \
 				Plane.cpp \
+				Cylinder.cpp \
 				Vec3d.cpp \
 				Window.cpp \
 				KeyboardMouseControl.cpp

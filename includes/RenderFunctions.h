@@ -16,5 +16,6 @@ void	renderPixel(Camera &camera,
 void	tracingScreen(Window &window,
                       Camera &camera,
                       std::list< IPrimitive*> &listObjects );
+inline double  minDistance( double t0, double t1 );
 
 #endif //RENDERCPP_RENDERFUNCTIONS_H

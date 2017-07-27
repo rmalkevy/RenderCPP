@@ -249,6 +249,78 @@ CMakeFiles/RenderCPP.dir/Plane.cpp.o.provides: CMakeFiles/RenderCPP.dir/Plane.cp
 CMakeFiles/RenderCPP.dir/Plane.cpp.o.provides.build: CMakeFiles/RenderCPP.dir/Plane.cpp.o
 
 
+CMakeFiles/RenderCPP.dir/Cylinder.cpp.o: CMakeFiles/RenderCPP.dir/flags.make
+CMakeFiles/RenderCPP.dir/Cylinder.cpp.o: ../Cylinder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/CLionProjects/RenderCPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/RenderCPP.dir/Cylinder.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RenderCPP.dir/Cylinder.cpp.o -c /Users/mac/CLionProjects/RenderCPP/Cylinder.cpp
+
+CMakeFiles/RenderCPP.dir/Cylinder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RenderCPP.dir/Cylinder.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/CLionProjects/RenderCPP/Cylinder.cpp > CMakeFiles/RenderCPP.dir/Cylinder.cpp.i
+
+CMakeFiles/RenderCPP.dir/Cylinder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RenderCPP.dir/Cylinder.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/CLionProjects/RenderCPP/Cylinder.cpp -o CMakeFiles/RenderCPP.dir/Cylinder.cpp.s
+
+CMakeFiles/RenderCPP.dir/Cylinder.cpp.o.requires:
+
+.PHONY : CMakeFiles/RenderCPP.dir/Cylinder.cpp.o.requires
+
+CMakeFiles/RenderCPP.dir/Cylinder.cpp.o.provides: CMakeFiles/RenderCPP.dir/Cylinder.cpp.o.requires
+	$(MAKE) -f CMakeFiles/RenderCPP.dir/build.make CMakeFiles/RenderCPP.dir/Cylinder.cpp.o.provides.build
+.PHONY : CMakeFiles/RenderCPP.dir/Cylinder.cpp.o.provides
+
+CMakeFiles/RenderCPP.dir/Cylinder.cpp.o.provides.build: CMakeFiles/RenderCPP.dir/Cylinder.cpp.o
+
+
+CMakeFiles/RenderCPP.dir/Cone.cpp.o: CMakeFiles/RenderCPP.dir/flags.make
+CMakeFiles/RenderCPP.dir/Cone.cpp.o: ../Cone.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/CLionProjects/RenderCPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/RenderCPP.dir/Cone.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RenderCPP.dir/Cone.cpp.o -c /Users/mac/CLionProjects/RenderCPP/Cone.cpp
+
+CMakeFiles/RenderCPP.dir/Cone.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RenderCPP.dir/Cone.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/CLionProjects/RenderCPP/Cone.cpp > CMakeFiles/RenderCPP.dir/Cone.cpp.i
+
+CMakeFiles/RenderCPP.dir/Cone.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RenderCPP.dir/Cone.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/CLionProjects/RenderCPP/Cone.cpp -o CMakeFiles/RenderCPP.dir/Cone.cpp.s
+
+CMakeFiles/RenderCPP.dir/Cone.cpp.o.requires:
+
+.PHONY : CMakeFiles/RenderCPP.dir/Cone.cpp.o.requires
+
+CMakeFiles/RenderCPP.dir/Cone.cpp.o.provides: CMakeFiles/RenderCPP.dir/Cone.cpp.o.requires
+	$(MAKE) -f CMakeFiles/RenderCPP.dir/build.make CMakeFiles/RenderCPP.dir/Cone.cpp.o.provides.build
+.PHONY : CMakeFiles/RenderCPP.dir/Cone.cpp.o.provides
+
+CMakeFiles/RenderCPP.dir/Cone.cpp.o.provides.build: CMakeFiles/RenderCPP.dir/Cone.cpp.o
+
+
+CMakeFiles/RenderCPP.dir/PhongColor.cpp.o: CMakeFiles/RenderCPP.dir/flags.make
+CMakeFiles/RenderCPP.dir/PhongColor.cpp.o: ../PhongColor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/CLionProjects/RenderCPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/RenderCPP.dir/PhongColor.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RenderCPP.dir/PhongColor.cpp.o -c /Users/mac/CLionProjects/RenderCPP/PhongColor.cpp
+
+CMakeFiles/RenderCPP.dir/PhongColor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RenderCPP.dir/PhongColor.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/CLionProjects/RenderCPP/PhongColor.cpp > CMakeFiles/RenderCPP.dir/PhongColor.cpp.i
+
+CMakeFiles/RenderCPP.dir/PhongColor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RenderCPP.dir/PhongColor.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/CLionProjects/RenderCPP/PhongColor.cpp -o CMakeFiles/RenderCPP.dir/PhongColor.cpp.s
+
+CMakeFiles/RenderCPP.dir/PhongColor.cpp.o.requires:
+
+.PHONY : CMakeFiles/RenderCPP.dir/PhongColor.cpp.o.requires
+
+CMakeFiles/RenderCPP.dir/PhongColor.cpp.o.provides: CMakeFiles/RenderCPP.dir/PhongColor.cpp.o.requires
+	$(MAKE) -f CMakeFiles/RenderCPP.dir/build.make CMakeFiles/RenderCPP.dir/PhongColor.cpp.o.provides.build
+.PHONY : CMakeFiles/RenderCPP.dir/PhongColor.cpp.o.provides
+
+CMakeFiles/RenderCPP.dir/PhongColor.cpp.o.provides.build: CMakeFiles/RenderCPP.dir/PhongColor.cpp.o
+
+
 # Object files for target RenderCPP
 RenderCPP_OBJECTS = \
 "CMakeFiles/RenderCPP.dir/main.cpp.o" \
@@ -258,7 +330,10 @@ RenderCPP_OBJECTS = \
 "CMakeFiles/RenderCPP.dir/Sphere.cpp.o" \
 "CMakeFiles/RenderCPP.dir/Vec3d.cpp.o" \
 "CMakeFiles/RenderCPP.dir/Window.cpp.o" \
-"CMakeFiles/RenderCPP.dir/Plane.cpp.o"
+"CMakeFiles/RenderCPP.dir/Plane.cpp.o" \
+"CMakeFiles/RenderCPP.dir/Cylinder.cpp.o" \
+"CMakeFiles/RenderCPP.dir/Cone.cpp.o" \
+"CMakeFiles/RenderCPP.dir/PhongColor.cpp.o"
 
 # External object files for target RenderCPP
 RenderCPP_EXTERNAL_OBJECTS =
@@ -271,9 +346,12 @@ RenderCPP: CMakeFiles/RenderCPP.dir/Sphere.cpp.o
 RenderCPP: CMakeFiles/RenderCPP.dir/Vec3d.cpp.o
 RenderCPP: CMakeFiles/RenderCPP.dir/Window.cpp.o
 RenderCPP: CMakeFiles/RenderCPP.dir/Plane.cpp.o
+RenderCPP: CMakeFiles/RenderCPP.dir/Cylinder.cpp.o
+RenderCPP: CMakeFiles/RenderCPP.dir/Cone.cpp.o
+RenderCPP: CMakeFiles/RenderCPP.dir/PhongColor.cpp.o
 RenderCPP: CMakeFiles/RenderCPP.dir/build.make
 RenderCPP: CMakeFiles/RenderCPP.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mac/CLionProjects/RenderCPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable RenderCPP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mac/CLionProjects/RenderCPP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable RenderCPP"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RenderCPP.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -289,6 +367,9 @@ CMakeFiles/RenderCPP.dir/requires: CMakeFiles/RenderCPP.dir/Sphere.cpp.o.require
 CMakeFiles/RenderCPP.dir/requires: CMakeFiles/RenderCPP.dir/Vec3d.cpp.o.requires
 CMakeFiles/RenderCPP.dir/requires: CMakeFiles/RenderCPP.dir/Window.cpp.o.requires
 CMakeFiles/RenderCPP.dir/requires: CMakeFiles/RenderCPP.dir/Plane.cpp.o.requires
+CMakeFiles/RenderCPP.dir/requires: CMakeFiles/RenderCPP.dir/Cylinder.cpp.o.requires
+CMakeFiles/RenderCPP.dir/requires: CMakeFiles/RenderCPP.dir/Cone.cpp.o.requires
+CMakeFiles/RenderCPP.dir/requires: CMakeFiles/RenderCPP.dir/PhongColor.cpp.o.requires
 
 .PHONY : CMakeFiles/RenderCPP.dir/requires
 

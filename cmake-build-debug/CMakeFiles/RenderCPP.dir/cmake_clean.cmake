@@ -7,6 +7,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/RenderCPP.dir/Vec3d.cpp.o"
   "CMakeFiles/RenderCPP.dir/Window.cpp.o"
   "CMakeFiles/RenderCPP.dir/Plane.cpp.o"
+  "CMakeFiles/RenderCPP.dir/Cylinder.cpp.o"
+  "CMakeFiles/RenderCPP.dir/Cone.cpp.o"
+  "CMakeFiles/RenderCPP.dir/PhongColor.cpp.o"
   "RenderCPP.pdb"
   "RenderCPP"
 )

@@ -12,7 +12,7 @@
 class Plane : public IPrimitive
 {
 public:
-    Plane(Vec3d position, Vec3d direction, Vec3d color); // TODO додати аргумент direction
+    Plane(Vec3d position, Vec3d direction, Vec3d color);
     ~Plane();
     bool	intersection(const Vec3d &rOrigin, const Vec3d &rDir, Camera &camera) override ;
 	Vec3d	findNormal(const Vec3d & intersectionPoint) override ;

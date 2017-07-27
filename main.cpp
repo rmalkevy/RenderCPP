@@ -22,7 +22,7 @@ void    putColorToPixel(Window &window, const Vec3d &color, const double &x, con
 Vec3d	makePixelColor(const Camera &camera, const double &intensity)
 {
 //    std::cout << "x = " << camera.normal.x << " y = " << camera.normal.y << " z = " << camera.normal.x << std::endl;
-    double lambert = camera.light.rayDirection.dot(camera.normal);
+    double lambert = camera.light.rayDirection.dot(camera.hitNormal);
     double red = camera.color.x * lambert * intensity;
     double green = camera.color.y * lambert * intensity;
     double blue =  camera.color.z * lambert * intensity;
@@ -31,14 +31,14 @@ Vec3d	makePixelColor(const Camera &camera, const double &intensity)
 
 Vec3d	tracingLight( Camera &camera, std::list<IPrimitive*> listObjects )
 {
-    Vec3d distance = camera.light.position - camera.intersectionPoint;
+    Vec3d distance = camera.light.position - camera.hitPoint;
     camera.setMaxDistance(distance.length());
-    if ( distance.dot(camera.normal) <= 0 )
+    if ( distance.dot(camera.hitNormal) <= 0 )
     {
         return Vec3d(0);
     }
 
-    camera.light.rayOrigin = camera.intersectionPoint;
+    camera.light.rayOrigin = camera.hitPoint;
     camera.light.rayDirection = distance.normalize();
     renderPixel(camera, listObjects, camera.light.rayOrigin, camera.light.rayDirection);
 //	if (camera.intersect)
@@ -58,9 +58,9 @@ void	renderPixel( Camera &camera, std::list<IPrimitive*> &listObjects, Vec3d ray
     {
         if ( (*it).intersection(rayOrig, rayDir, camera) )
         {
-            camera.intersectionPoint = camera.getDirection() * camera.getMaxDistance();
-            camera.intersectionPoint += camera.getPosition();
-            camera.normal = (*it).findNormal(camera.intersectionPoint);
+            camera.hitPoint = camera.getDirection() * camera.getMaxDistance();
+            camera.hitPoint += camera.getPosition();
+            camera.hitNormal = (*it).findNormal(camera.hitPoint);
             camera.color = (*it).getColor();
             camera.intersect = true;
         }

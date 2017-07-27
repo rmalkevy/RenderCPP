@@ -25,8 +25,8 @@ public:
 	double	getMaxDistance() const;
 	Vec3d	color;
 	bool	intersect;
-	Vec3d	normal;
-	Vec3d	intersectionPoint;
+	Vec3d	hitNormal;
+	Vec3d	hitPoint;
 	Light	light;
 
 private:

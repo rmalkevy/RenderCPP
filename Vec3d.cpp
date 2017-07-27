@@ -87,3 +87,8 @@ Vec3d Vec3d::operator-( const Vec3d &v ) const
 {
 	return (Vec3d(x - v.x, y - v.y, z - v.z));
 }
+
+Vec3d Vec3d::operator-() const
+{
+	return (Vec3d(-x, -y, -z));
+}

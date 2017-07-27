@@ -30,6 +30,7 @@ public:
 	Vec3d operator * (const Vec3d &v) const;
 	Vec3d operator + (const Vec3d &v) const;
 	Vec3d operator - (const Vec3d &v) const;
+	Vec3d operator - () const;
 	Vec3d&operator += (const Vec3d &v);
 	Vec3d&operator *= (const Vec3d &v);
 };

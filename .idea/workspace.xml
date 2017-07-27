@@ -12,6 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a3116e0-d36a-4a1d-a69a-ae6ffad2cb29" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhongColor.cpp" afterPath="$PROJECT_DIR$/PhongColor.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -30,7 +31,7 @@
     <favorites_list name="RenderCPP" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5914787">
+    <splitter split-orientation="horizontal" split-proportion="0.7535505">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="Primitive.h" pinned="false" current-in-tab="false">
@@ -72,9 +73,11 @@
           <file leaf-file-name="PhongColor.cpp" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/PhongColor.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="630">
-                  <caret line="42" column="1" lean-forward="false" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-                  <folding />
+                <state relative-caret-position="330">
+                  <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#38#58#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -564,12 +567,12 @@
       <workItem from="1500890440662" duration="593000" />
       <workItem from="1500984321776" duration="84000" />
       <workItem from="1500985498927" duration="12000" />
-      <workItem from="1501138423971" duration="5931000" />
+      <workItem from="1501138423971" duration="6655000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49894000" />
+    <option name="totallyTimeSpent" value="50618000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -842,9 +845,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PhongColor.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="1" lean-forward="false" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="330">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#38#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

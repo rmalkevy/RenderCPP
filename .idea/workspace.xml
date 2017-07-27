@@ -31,7 +31,7 @@
     <favorites_list name="RenderCPP" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6967419">
+    <splitter split-orientation="horizontal" split-proportion="0.62322474">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="Primitive.h" pinned="false" current-in-tab="false">
@@ -73,11 +73,21 @@
           <file leaf-file-name="PhongColor.cpp" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/PhongColor.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="320">
-                  <caret line="32" column="49" lean-forward="false" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+                <state relative-caret-position="330">
+                  <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
                   <folding>
                     <element signature="e#38#58#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Vec3d.h" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/includes/Vec3d.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="465">
+                  <caret line="32" column="22" lean-forward="false" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -579,12 +589,12 @@
       <workItem from="1500984321776" duration="84000" />
       <workItem from="1500985498927" duration="12000" />
       <workItem from="1501138423971" duration="7842000" />
-      <workItem from="1501158198453" duration="750000" />
+      <workItem from="1501158198453" duration="1801000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52555000" />
+    <option name="totallyTimeSpent" value="53606000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -847,8 +857,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PhongColor.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="32" column="49" lean-forward="false" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+        <state relative-caret-position="330">
+          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
           <folding>
             <element signature="e#38#58#0" expanded="true" />
           </folding>

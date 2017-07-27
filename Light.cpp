@@ -20,3 +20,14 @@ Light::~Light()
 {
 	return ;
 }
+
+void Light::illuminate(const Vec3d &P, Vec3d &lightDir, Vec3d &lightIntensity, double &distance) const
+{
+	lightDir = (P - position);
+	double r2 = lightDir.dot(lightDir);
+	distance = sqrt(r2);
+	lightDir *= (1 / distance);
+	//lightDir.x /= distance, lightDir.y /= distance, lightDir.z /= distance;
+	// avoid division by 0
+	lightIntensity = color * (intensity / (4 * M_PI * r2));
+}

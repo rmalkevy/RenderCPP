@@ -3,6 +3,7 @@
 //
 
 #include <algorithm>
+#include <complex>
 #include "includes/Vec3d.h"
 #include "includes/Camera.h"
 
@@ -16,7 +17,7 @@ Vec3d reflect(const Vec3d &I, const Vec3d &N)
     return I - N * 2 * I.dot(N);
 }
 
-Vec3d calulatePhongColor(Camera &camera, Vec3d hitColor)
+Vec3d calulatePhongColor(Camera &camera, Vec3d hitColor, Light *lights)
 {
     Vec3d diffuse(0);
     Vec3d specular(0);
@@ -28,7 +29,7 @@ Vec3d calulatePhongColor(Camera &camera, Vec3d hitColor)
         Vec3d lightDir;
         Vec3d lightIntensity;
         IsectInfo isectShad;
-        lights[i]->illuminate(hitPoint, lightDir, lightIntensity, isectShad.tNear);
+        lights[i].illuminate(hitPoint, lightDir, lightIntensity, isectShad.tNear);
 
         bool vis = !trace(hitPoint + hitNormal * bias, -lightDir, objects, isectShad, kShadowRay);
 

@@ -13,7 +13,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4a3116e0-d36a-4a1d-a69a-ae6ffad2cb29" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PhongColor.cpp" afterPath="$PROJECT_DIR$/PhongColor.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Makefile" afterPath="$PROJECT_DIR$/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,13 +71,45 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="PhongColor.cpp" pinned="false" current-in-tab="true">
+          <file leaf-file-name="PhongColor.cpp" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/PhongColor.cpp">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
-                  <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+                <state relative-caret-position="210">
+                  <caret line="14" column="45" lean-forward="false" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
                   <folding>
                     <element signature="e#38#58#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Light.cpp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Light.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="255">
+                  <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Makefile" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Makefile">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="270">
+                  <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/main.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2115">
+                  <caret line="141" column="22" lean-forward="false" selection-start-line="141" selection-start-column="22" selection-end-line="141" selection-end-column="22" />
+                  <folding>
+                    <element signature="e#1#29#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -85,7 +118,7 @@
           <file leaf-file-name="Vec3d.h" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/includes/Vec3d.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="465">
+                <state relative-caret-position="480">
                   <caret line="32" column="22" lean-forward="false" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
                   <folding />
                 </state>
@@ -128,11 +161,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Cone.h" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Cone.h" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/includes/Cone.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+                <state relative-caret-position="240">
+                  <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Light.h" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/includes/Light.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="330">
+                  <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
                   <folding />
                 </state>
               </provider>
@@ -168,16 +211,13 @@
         <option value="$PROJECT_DIR$/Window.cpp" />
         <option value="$PROJECT_DIR$/KeyboardMouseControl.cpp" />
         <option value="$PROJECT_DIR$/includes/KeyboardMouseControl.h" />
-        <option value="$PROJECT_DIR$/includes/Light.h" />
         <option value="$PROJECT_DIR$/includes/Primitive.h" />
         <option value="$PROJECT_DIR$/Plane.cpp" />
         <option value="$PROJECT_DIR$/Render.cpp" />
         <option value="$PROJECT_DIR$/includes/Render.h" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/includes/Window.h" />
         <option value="$PROJECT_DIR$/includes/Sphere.h" />
         <option value="$PROJECT_DIR$/includes/Plane.h" />
-        <option value="$PROJECT_DIR$/Makefile" />
         <option value="$PROJECT_DIR$/includes/Cylinder.h" />
         <option value="$PROJECT_DIR$/includes/Cone.h" />
         <option value="$PROJECT_DIR$/Sphere.cpp" />
@@ -187,7 +227,11 @@
         <option value="$PROJECT_DIR$/includes/Vec3d.h" />
         <option value="$PROJECT_DIR$/Vec3d.cpp" />
         <option value="$PROJECT_DIR$/includes/Camera.h" />
+        <option value="$PROJECT_DIR$/includes/Light.h" />
+        <option value="$PROJECT_DIR$/Light.cpp" />
         <option value="$PROJECT_DIR$/PhongColor.cpp" />
+        <option value="$PROJECT_DIR$/Makefile" />
+        <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
@@ -589,12 +633,13 @@
       <workItem from="1500984321776" duration="84000" />
       <workItem from="1500985498927" duration="12000" />
       <workItem from="1501138423971" duration="7842000" />
-      <workItem from="1501158198453" duration="1801000" />
+      <workItem from="1501158198453" duration="2910000" />
+      <workItem from="1501164483858" duration="81000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53606000" />
+    <option name="totallyTimeSpent" value="54796000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -643,7 +688,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Primitives/Vector3f.h" />
     <entry file="file://$PROJECT_DIR$/Primitives/Primitive.h" />
     <entry file="file://$PROJECT_DIR$/Primitives/Sphere.cpp" />
     <entry file="file://$PROJECT_DIR$/Primitives/Render.h" />
@@ -681,6 +725,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="71" lean-forward="false" selection-start-line="28" selection-start-column="71" selection-end-line="28" selection-end-column="71" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -696,6 +741,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -703,6 +749,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -710,13 +757,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/Light.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -724,19 +765,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="56" lean-forward="false" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
-          <folding>
-            <element signature="e#102#120#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="31" column="74" lean-forward="false" selection-start-line="31" selection-start-column="74" selection-end-line="31" selection-end-column="74" />
-          <folding>
-            <element signature="e#1#29#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -789,17 +817,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sphere.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -810,14 +832,6 @@
           <folding>
             <element signature="e#38#68#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/Cone.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -835,7 +849,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="563">
           <caret line="93" column="1" lean-forward="true" selection-start-line="93" selection-start-column="1" selection-end-line="93" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -849,19 +862,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/Vec3d.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
+        <state relative-caret-position="480">
           <caret line="32" column="22" lean-forward="false" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/Cone.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/Light.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PhongColor.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        <state relative-caret-position="210">
+          <caret line="14" column="45" lean-forward="false" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
           <folding>
             <element signature="e#38#58#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Light.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2115">
+          <caret line="141" column="22" lean-forward="false" selection-start-line="141" selection-start-column="22" selection-end-line="141" selection-end-column="22" />
+          <folding>
+            <element signature="e#1#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>

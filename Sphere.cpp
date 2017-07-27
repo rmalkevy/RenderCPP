@@ -3,6 +3,7 @@
 //
 
 #include "includes/Sphere.h"
+#include "includes/RenderFunctions.h"
 
 Sphere::Sphere( Vec3d position, Vec3d color, double radius )
 {
@@ -17,15 +18,6 @@ Sphere::Sphere( Vec3d position, Vec3d color, double radius )
 Sphere::~Sphere()
 {
 	return ;
-}
-
-inline double minDistance( double t0, double t1 )
-{
-	if (t0 < 0)
-		t0 = t1;
-	if (t0 > t1)
-		t0 = t1;
-	return ( t0 );
 }
 
 bool Sphere::intersection( const Vec3d &rOrigin, const Vec3d &rDir, Camera &camera )

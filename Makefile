@@ -14,14 +14,15 @@ NAME = RenderCPP
 
 SRCCPP =		main.cpp \
 				Render.cpp \
-				Camera.cpp \
-				Light.cpp \
-				Sphere.cpp \
-				Plane.cpp \
-				Cylinder.cpp \
-				Vec3d.cpp \
-				Window.cpp \
-				KeyboardMouseControl.cpp
+                Camera.cpp \
+                Light.cpp \
+                Sphere.cpp \
+                Plane.cpp \
+                Cylinder.cpp \
+                Vec3d.cpp \
+                Window.cpp \
+                KeyboardMouseControl.cpp
+
 
 
 SRCMLX = minilibx/*.c

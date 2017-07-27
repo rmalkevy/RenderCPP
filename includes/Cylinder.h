@@ -20,7 +20,6 @@ private:
     Vec3d position;
     Vec3d direction;
     Vec3d color;
-    double radius;
     double sqRadius;
 };
 

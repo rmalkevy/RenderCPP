@@ -138,9 +138,9 @@ void	renderImage( Render &render )
 // TODO погано пам'ять фрішиться коли різні клавіші нажимаю. Перевірити що там і як
 
     keyboardMouseControl.keyboardControl(); // TODO написати функцію з обробки клавіш
-    std::cout << "break point " << a << std::endl;
+   // std::cout << "break point " << a << std::endl;
     render.window->infinityShowingImage();
-    std::cout << "break point " << a << std::endl;
+   // std::cout << "break point " << a << std::endl;
 }
 
 int main()

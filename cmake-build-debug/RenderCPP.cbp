@@ -91,6 +91,9 @@
 		<Unit filename="/Users/mac/CLionProjects/RenderCPP/Cylinder.cpp">
 			<Option target="RenderCPP"/>
 		</Unit>
+		<Unit filename="/Users/mac/CLionProjects/RenderCPP/KeyboardMouseControl.cpp">
+			<Option target="RenderCPP"/>
+		</Unit>
 		<Unit filename="/Users/mac/CLionProjects/RenderCPP/Light.cpp">
 			<Option target="RenderCPP"/>
 		</Unit>

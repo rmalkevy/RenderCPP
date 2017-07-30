@@ -204,6 +204,33 @@ Cylinder.cpp.s:
 	$(MAKE) -f CMakeFiles/RenderCPP.dir/build.make CMakeFiles/RenderCPP.dir/Cylinder.cpp.s
 .PHONY : Cylinder.cpp.s
 
+KeyboardMouseControl.o: KeyboardMouseControl.cpp.o
+
+.PHONY : KeyboardMouseControl.o
+
+# target to build an object file
+KeyboardMouseControl.cpp.o:
+	$(MAKE) -f CMakeFiles/RenderCPP.dir/build.make CMakeFiles/RenderCPP.dir/KeyboardMouseControl.cpp.o
+.PHONY : KeyboardMouseControl.cpp.o
+
+KeyboardMouseControl.i: KeyboardMouseControl.cpp.i
+
+.PHONY : KeyboardMouseControl.i
+
+# target to preprocess a source file
+KeyboardMouseControl.cpp.i:
+	$(MAKE) -f CMakeFiles/RenderCPP.dir/build.make CMakeFiles/RenderCPP.dir/KeyboardMouseControl.cpp.i
+.PHONY : KeyboardMouseControl.cpp.i
+
+KeyboardMouseControl.s: KeyboardMouseControl.cpp.s
+
+.PHONY : KeyboardMouseControl.s
+
+# target to generate assembly for a file
+KeyboardMouseControl.cpp.s:
+	$(MAKE) -f CMakeFiles/RenderCPP.dir/build.make CMakeFiles/RenderCPP.dir/KeyboardMouseControl.cpp.s
+.PHONY : KeyboardMouseControl.cpp.s
+
 Light.o: Light.cpp.o
 
 .PHONY : Light.o
@@ -438,6 +465,9 @@ help:
 	@echo "... Cylinder.o"
 	@echo "... Cylinder.i"
 	@echo "... Cylinder.s"
+	@echo "... KeyboardMouseControl.o"
+	@echo "... KeyboardMouseControl.i"
+	@echo "... KeyboardMouseControl.s"
 	@echo "... Light.o"
 	@echo "... Light.i"
 	@echo "... Light.s"

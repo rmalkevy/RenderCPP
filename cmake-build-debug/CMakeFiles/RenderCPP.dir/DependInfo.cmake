@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/mac/CLionProjects/RenderCPP/Camera.cpp" "/Users/mac/CLionProjects/RenderCPP/cmake-build-debug/CMakeFiles/RenderCPP.dir/Camera.cpp.o"
   "/Users/mac/CLionProjects/RenderCPP/Cone.cpp" "/Users/mac/CLionProjects/RenderCPP/cmake-build-debug/CMakeFiles/RenderCPP.dir/Cone.cpp.o"
   "/Users/mac/CLionProjects/RenderCPP/Cylinder.cpp" "/Users/mac/CLionProjects/RenderCPP/cmake-build-debug/CMakeFiles/RenderCPP.dir/Cylinder.cpp.o"
+  "/Users/mac/CLionProjects/RenderCPP/KeyboardMouseControl.cpp" "/Users/mac/CLionProjects/RenderCPP/cmake-build-debug/CMakeFiles/RenderCPP.dir/KeyboardMouseControl.cpp.o"
   "/Users/mac/CLionProjects/RenderCPP/Light.cpp" "/Users/mac/CLionProjects/RenderCPP/cmake-build-debug/CMakeFiles/RenderCPP.dir/Light.cpp.o"
   "/Users/mac/CLionProjects/RenderCPP/PhongColor.cpp" "/Users/mac/CLionProjects/RenderCPP/cmake-build-debug/CMakeFiles/RenderCPP.dir/PhongColor.cpp.o"
   "/Users/mac/CLionProjects/RenderCPP/Plane.cpp" "/Users/mac/CLionProjects/RenderCPP/cmake-build-debug/CMakeFiles/RenderCPP.dir/Plane.cpp.o"

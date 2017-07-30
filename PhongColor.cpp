@@ -31,7 +31,7 @@ Vec3d calulatePhongColor(Camera &camera, Vec3d hitColor, Light *lights)
         IsectInfo isectShad;
         lights[i].illuminate(hitPoint, lightDir, lightIntensity, isectShad.tNear);
 
-        bool vis = !trace(hitPoint + hitNormal * bias, -lightDir, objects, isectShad, kShadowRay);
+        bool vis = !trace(hitPoint + (hitNormal * bias), -lightDir, objects, isectShad, kShadowRay);
 
         // compute the diffuse component
         diffuse += vis * isect.hitObject->albedo * lightIntensity * std::max(0.f, hitNormal.dot(-lightDir));
